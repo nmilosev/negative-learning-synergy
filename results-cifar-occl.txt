@@ -1,0 +1,25 @@
+Testing -- SSK
+[normal] Test set: Average loss: 1.4752, Accuracy: 5404/10000 (54%)
+[hybrid] Test set: Average loss: 1.8476, Accuracy: 5127/10000 (51%)
+[synergy] Test set: Average loss: 2.2947, Accuracy: 5524/10000 (55%)
+[tr_synergy_tf] Test set: Average loss: 2.0111, Accuracy: 5273/10000 (53%)
+[tr_synergy] Test set: Average loss: 1.4797, Accuracy: 5389/10000 (54%)
+Testing -- SSKR
+[normal] Test set: Average loss: 1.4123, Accuracy: 5689/10000 (57%)
+[hybrid] Test set: Average loss: 1.7006, Accuracy: 5615/10000 (56%)
+[synergy] Test set: Average loss: 2.1202, Accuracy: 5985/10000 (60%)
+[tr_synergy_tf] Test set: Average loss: 2.0997, Accuracy: 5437/10000 (54%)
+[tr_synergy] Test set: Average loss: 1.3884, Accuracy: 5745/10000 (57%)
+Testing -- MSK
+[normal] Test set: Average loss: 1.2187, Accuracy: 6115/10000 (61%)
+[hybrid] Test set: Average loss: 1.4447, Accuracy: 6038/10000 (60%)
+[synergy] Test set: Average loss: 1.7587, Accuracy: 6449/10000 (64%)
+[tr_synergy_tf] Test set: Average loss: 1.5720, Accuracy: 6200/10000 (62%)
+[tr_synergy] Test set: Average loss: 1.2588, Accuracy: 6066/10000 (61%)
+Testing -- MSKR
+[normal] Test set: Average loss: 1.6769, Accuracy: 4760/10000 (48%)
+[hybrid] Test set: Average loss: 2.2004, Accuracy: 4508/10000 (45%)
+[synergy] Test set: Average loss: 2.6628, Accuracy: 4935/10000 (49%)
+[tr_synergy_tf] Test set: Average loss: 2.4559, Accuracy: 4627/10000 (46%)
+[tr_synergy] Test set: Average loss: 1.7637, Accuracy: 4485/10000 (45%)
+

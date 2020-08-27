@@ -129,14 +129,15 @@ models = [model_normal, model_hybrid,
           model_synergy,
           model_tr_synergy_tf, model_tr_synergy]
 
-dataset_names = ['Normal', 'C1', 'C2', 'C3']
+dataset_names = ['Normal', 'C1', 'C2', 'C3', 'SSK', 'SSKR', 'MSK', 'MSKR']
 datasets = []
 for _ in dataset_names:
     datasets.append(loader())
 
-from cifar_filters import corner_kernel
+from cifar_filters import corner_kernel, single_square_kernel, single_square_kernel_random, multiple_square_kernel, multiple_square_kernel_random
 filters_map = {'C1': corner_kernel(0.1),
-               'C2': corner_kernel(0.2), 'C3': corner_kernel(0.3)}
+               'C2': corner_kernel(0.2), 'C3': corner_kernel(0.3),
+               'SSK': single_square_kernel(), 'SSKR': single_square_kernel_random(), 'MSK': multiple_square_kernel(), 'MSKR': multiple_square_kernel_random()}
 
 for dataset, name in zip(datasets, dataset_names):
     print('Testing -- ' + name)
